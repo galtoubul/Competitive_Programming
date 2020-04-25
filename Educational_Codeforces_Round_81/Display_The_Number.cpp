@@ -1,4 +1,4 @@
-// CodeForces/Educational Codeforces Round 81/A. Display The Number
+// Educational Codeforces Round 81/A. Display The Number
 // Created by Gal Toubul
 
 #include <iostream>
