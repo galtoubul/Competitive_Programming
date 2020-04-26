@@ -14,7 +14,7 @@ VVI Adj; // n * m mat for Adj list
 vector<bool> color; // n + 1 size vector for marking the nodes as white/gray
 VI d; // n + 1 size vector for nodes' distances from root
 
-void bfs() {
+void BFS() {
 
     // initialize
     int root = Adj[0][0];
@@ -74,7 +74,7 @@ int main(){
         cout << endl;
     }
 
-    bfs ();
+    BFS ();
 
     return 0;
 }
