@@ -42,7 +42,7 @@ int main(){
         Adj[a - 'a'].push_back(b - 'a');
     }
 
-    // DFS for each letter
+    // DFS for each letter i in order to check which letters are reachable from i
     for (int i = 0; i < 26; ++i){
         color.assign(26, WHITE);
         DFS(i, i);
@@ -52,6 +52,7 @@ int main(){
         bool ans = true;
         string word1, word2;
         cin >> word1 >> word2;
+
         if (word1.length() != word2.length())
             ans = false;
 
